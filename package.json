@@ -1,0 +1,17 @@
+{
+  "name": "test-bunchee",
+  "version": "1.0.0",
+  "author": "promer94",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "react-native": "./dist/index.esm.js",
+  "types": "./dist/types/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "bunchee": "^1.5.4",
+    "typescript": "3.7.7"
+  },
+  "scripts": {
+    "watch": "bunchee src/index.ts --watch"
+  }
+}
